@@ -5,14 +5,17 @@
 }
 .image{
     float: right;
+    padding-right: 25px;
 }
 .all{
-    margin-left: 120%;
+    top: -150%;
 }
 body{
     border:0.25em solid black;
     margin-left: 200px;
-    background-image: linear-gradient(to bottom,Aquamarine,rgb(226, 163, 228))
+    /* background-image: linear-gradient(to bottom,rgb(207, 224, 219),rgb(116, 111, 116)) */
+    /* background-color: #ece1e1; */
+    background-image: url("blu.jpg");
 }
 details{
     margin-left: 5%;

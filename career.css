@@ -6,7 +6,9 @@
 body{
     border: 0.25em solid black;
     margin-left: 0%;
-    background-image: linear-gradient(to bottom,Aquamarine,rgb(226, 163, 228))
+    /* background-image: linear-gradient(to bottom,rgb(207, 224, 219),rgb(116, 111, 116)) */
+    /* background-color: #ece1e1; */
+    background-image: url("blu.jpg");
 }
 
 ul {
@@ -38,38 +40,80 @@ ul li active a{
     position: absolute;
     top: -80px;
 };
+.sk{
+    padding-left: 40px;
+}
 
    h1 {
       text-align: center;
    }
-   .container {
+   .container { 
       width: 100%;
       background-color: rgb(231, 231, 231);
       border-radius: 20px;
    }
-   .cpp, .java, .python, .c {
+   .html, .java, .python, .c {
+       padding-left: 50px; 
       text-align: center;
       font-weight: bolder;
       padding-top: 3px;
       padding-bottom: 3px;
       color: white;
       border-radius: 20px;
+      
    }
-   .cpp {
-      width: 50%;
+   .html {
+      width: 90%;
       background-color: #03c023;
+      animation: html 4s;
    }
    .java {
       width: 70%;
       background-color: #120583;
+      animation: java 4s;
    }
    .python {
       width: 85%;
       background-color: #f00808;
+      animation: python 4s;
    }
    .c {
       width: 80%;
       background-color: #57c9fd;
+      animation: c 4s;
    
 }
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90% ;
+    }
+}
+@keyframes java{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70% ;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85 ;
+    }
+}
+@keyframes c{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80% ;
+    }
+}
+
 
