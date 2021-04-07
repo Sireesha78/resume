@@ -5,14 +5,21 @@
 }
 .image{
     float: right;
+    margin-right: -46%;
+    margin-top: 5%;
     padding-right: 25px;
 }
+/* .res{
+   color:rgb(9, 1, 41);
+   font-family: Arial; 
+   margin-left: -30%;
+} */
 .all{
     top: -150%;
 }
 body{
     border:0.25em solid black;
-    margin-left: 200px;
+    margin-left: 0px;
     /* background-image: linear-gradient(to bottom,rgb(207, 224, 219),rgb(116, 111, 116)) */
     /* background-color: #ece1e1; */
     background-image: url("blu.jpg");
@@ -25,7 +32,7 @@ details{
     margin-left: 5%;
     display: block;
     list-style-type: circle;
-
+    margin-top: 5%;
 }
 ul {
     float: right;

@@ -11,8 +11,9 @@
     top: -150%;
 }
 body{
-    border:0.25em solid black;
+    /* border:0.25em solid black; */
     margin-left: 200px;
+    
     /* background-image: linear-gradient(to bottom,rgb(207, 224, 219),rgb(116, 111, 116)) */
     /* background-color: #ece1e1; */
     background-image: url("blu.jpg");
@@ -99,5 +100,6 @@ ul li active a{
     left: 80%;
     transform:translate(-70%);
     border-radius: 50%;
-
+    flex-direction: column;
 }
+

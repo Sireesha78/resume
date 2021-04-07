@@ -4,10 +4,11 @@
     font-family: sans-serif;
 }
 body{
-    border: 0.25em solid black;
-    margin-left: 0%;
+    /* border: 0.25em solid black; */
+    /* margin-left: 0%; */
     /* background-image: linear-gradient(to bottom,rgb(207, 224, 219),rgb(116, 111, 116)) */
     /* background-color: #ece1e1; */
+    
     background-image: url("blu.jpg");
 }
 
@@ -99,5 +100,19 @@ image-resolution: 3;
     top: 40%;
     left: 65%;
 
+}
+.fe{
+    color: rgb(15, 15, 15);
+    font-family: 'orpheus-pro';
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 30%;  
+}
+.feedback{
+    font-size: 0px;
+    position: absolute;
+    top: 60%;
+    left: 48%;
 }
 
